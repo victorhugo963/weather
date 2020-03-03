@@ -1,0 +1,38 @@
+name: weather
+description: weather application
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter_screenutil: ^1.0.2
+  dio: 3.0.9
+  rxdart: ^0.22.6
+  bloc_pattern: ^2.5.1
+  google_fonts: ^0.1.1
+  hive: ^1.4.1+1
+  hive_flutter: ^0.3.0+2
+  path_provider: 1.6.1
+  _fe_analyzer_shared: 1.0.3
+  bot_toast: ^2.2.0
+  intl: ^0.16.0
+
+
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  hive_generator: ^0.7.0+2
+  build_runner:
+
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
