@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:rxdart/rxdart.dart';
 import 'package:weather/database/city_model.dart';
 import 'package:weather/utils/components/description_component.dart';
 import 'package:weather/utils/components/title_subtitle_component.dart';
 import 'package:weather/utils/formatters/temperature_format.dart';
 import 'package:intl/intl.dart';
-import 'package:weather/utils/library/global_library.dart' as globals;
 
 import 'details_bloc.dart';
 
@@ -22,7 +20,6 @@ class DetailsPage extends StatefulWidget {
 
 class _DetailsPageState extends State<DetailsPage> {
   DetailsBloc _detailsBloc = DetailsBloc();
-  bool _isCelsius = true;
 
   @override
   void initState() {
